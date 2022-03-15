@@ -246,7 +246,7 @@ local myFighter={}
   lstFighters[2].lstAnimations[5]={name="kick",stringImg="images/characters/Blanka/kick.png",wFrame=93,hFrame=89,lstFrames={1,2,3,4,5},speed=0.1,bLoop=false}
   lstFighters[2].lstAnimations[6]={name="kick2",stringImg="images/characters/Blanka/kick2.png",wFrame=89,hFrame=82,lstFrames={1,2,3},speed=0.1,bLoop=false}
 
-  lstFighters[2].lstAnimations[7]={name="ko",stringImg="images/characters/Blanka/ko.png",wFrame=76,hFrame=105,lstFrames={1,2,3},speed=0.2,bLoop=false}
+  lstFighters[2].lstAnimations[7]={name="ko",stringImg="images/characters/Blanka/ko.png",wFrame=105,hFrame=76,lstFrames={1,2,3,5},speed=0.2,bLoop=false}
   lstFighters[2].lstAnimations[8]={name="victory1",stringImg="images/characters/Blanka/victory1.png",wFrame=68,hFrame=133,lstFrames={1,2,3,4,5},speed=0.2,bLoop=false}
   lstFighters[2].lstAnimations[9]={name="victory2",stringImg="images/characters/Blanka/victory2.png",wFrame=80,hFrame=106,lstFrames={1,2,3,4,5,6,7,8,9,10},speed=0.2,bLoop=false}
 
