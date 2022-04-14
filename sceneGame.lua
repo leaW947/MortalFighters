@@ -4,7 +4,6 @@ local assetManager=nil
 local gameplayService=nil
 local sceneLoader=nil
 
---local sprite=require("sprite")
 local GUI=require("GUI")
 local AIFighter=require("AIFighter")
 
@@ -1095,25 +1094,21 @@ function drawFighters()
   elseif myOpponent.bHit then
     myFighter.sprite.draw()
     myOpponent.sprite.draw()
-    
-  else
-    
-    if myFighter.sprite.y+((myFighter.sprite.currentAnimation.hFrame/2)*myFighter.sprite.scale.y)>myOpponent.sprite.y+((myOpponent.sprite.currentAnimation.hFrame/2)*myOpponent.sprite.scale.y) then
-      
-      myOpponent.sprite.draw()
-      myFighter.sprite.draw()
-    
-    elseif myFighter.sprite.y<=myOpponent.sprite.y then
-      myFighter.sprite.draw()
-      myOpponent.sprite.draw()
-    
-    else
-      myOpponent.sprite.draw()
-      myFighter.sprite.draw()
-    end
-          
   end
+    
+  if myFighter.sprite.y+((myFighter.sprite.currentAnimation.hFrame)*myFighter.sprite.scale.y)>myOpponent.sprite.y+((myOpponent.sprite.currentAnimation.hFrame)*myOpponent.sprite.scale.y) then
+    
+    myOpponent.sprite.draw()
+    myFighter.sprite.draw()
   
+  elseif myFighter.sprite.y+((myFighter.sprite.currentAnimation.hFrame)*myFighter.sprite.scale.y)<myOpponent.sprite.y+((myOpponent.sprite.currentAnimation.hFrame)*myOpponent.sprite.scale.y) then
+    myFighter.sprite.draw()
+    myOpponent.sprite.draw()
+  
+  else
+    myOpponent.sprite.draw()
+    myFighter.sprite.draw()
+  end  
 end
 
 function SceneGame.draw()
