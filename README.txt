@@ -77,13 +77,13 @@ peut aller en haut ou en bas).
 
 C'est qu'une fois qu'on à dépasser notre adversaire et qu'on retourne en face de 
 celui-ci que le combat peut continuer. 
-
+     	
 
 Pour porter un coup à notre adversaire il faut cliquer sur une combinaison de touches.
-Pour connaître la combinaison de touches qui correspond aux coups que l'on veut porter
-à notre adversaire, il faut appuyer sur la touche "A" du clavier.
+Pour connaître la combinaison de touches qui correspond aux coups que l'on veut porter,
+il faut appuyer sur la touche "A" du clavier.
 
-Une fois qu'on a cliquer sur la touche "A" du clavier, le jeu ce mets en pause et 
+Une fois qu'on a cliquer sur la touche "A" du clavier, le jeu ce met en pause et 
 un petit écran s'affiche. Sur ce petit écran, il y a les combinaisons des touches
 avec les coups correspondant affiché en face.
 Si vous voulez reprendre le jeu, il suffit d'appuyer de nouveau sur "A".
@@ -91,7 +91,7 @@ Si vous voulez reprendre le jeu, il suffit d'appuyer de nouveau sur "A".
 
 Quand on arrive a frapper notre adversaire, il perd de la vie. Si c'est notre 
 adversaire qui nous frappe alors c'est notre personnage qui perd de la vie. La
-vie qui nous reste ou la vie qui reste à notre adversaire et visible en regardant
+vie qui nous reste ou la vie qui reste à notre adversaire est visible en regardant
 les barres de vies.
 
 Quand un des deux combattants n'a plus de vies, le round est terminé. Si il nous
